@@ -76,7 +76,7 @@ Here's a breakdown of the code you provided:
 
 ---
 
-**Result Analysis **
+**Result Analysis**
 
 **1. Model Accuracy:**
 
@@ -119,13 +119,16 @@ A heatmap of the confusion matrix is plotted for better visualization.
 
 A DataFrame is created to display actual vs. predicted values on the testing set.
 
-Summary:
-The model performs well in predicting Class 0 (No Personal Loan) with high precision, recall, and F1-score.
-However, the model has lower performance in predicting Class 1 (Personal Loan), as indicated by lower precision, recall, and F1-score.
-The confusion matrix provides a detailed breakdown of true positives, true negatives, false positives, and false negatives.
-Recommendations:
-The model's overall accuracy is good, but the performance disparity between classes suggests further investigation.
-Consider addressing the class imbalance if present.
-Fine-tune the model parameters or explore other classification algorithms for potential improvement.
-Feature engineering or additional data exploration may enhance model performance.
-This analysis provides insights into the strengths and weaknesses of the Naive Bayes model for the specific task of predicting whether a person will take a personal loan.
+**Summary:**
+
+* The model performs well in predicting Class 0 (No Personal Loan) with high precision, recall, and F1-score.
+* However, the model has lower performance in predicting Class 1 (Personal Loan), as indicated by lower precision, recall, and F1-score.
+* The confusion matrix provides a detailed breakdown of true positives, true negatives, false positives, and false negatives.
+
+**Recommendations:**
+
+* The model's overall accuracy is good, but the performance disparity between classes suggests further investigation.
+* Consider addressing the class imbalance if present.
+* Fine-tune the model parameters or explore other classification algorithms for potential improvement.
+* Feature engineering or additional data exploration may enhance model performance.
+* This analysis provides insights into the strengths and weaknesses of the Naive Bayes model for the specific task of predicting whether a person will take a personal loan.
