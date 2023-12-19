@@ -10,6 +10,8 @@ Naive Bayes is a probabilistic machine learning algorithm that is based on Bayes
 
 Here's a breakdown of the code you provided:
 
+---
+
 **Data Preparation:**
 
 **1.Loading Data:**
@@ -27,6 +29,8 @@ Here's a breakdown of the code you provided:
 **4.Creating X and y:**
 
 * The dataset is divided into features (X) and the target variable (y), where "Personal Loan" is the target.
+
+---
   
 **Model Building:**
 
@@ -42,6 +46,8 @@ Here's a breakdown of the code you provided:
 
 * The model is trained on the training set using the fit() method.
 
+---
+
 **Model Evaluation:**
 
 **1.Model Evaluation on Training Set:**
@@ -55,7 +61,9 @@ Here's a breakdown of the code you provided:
 **3.Making Predictions:**
 
 * The model is used to make predictions on the testing set.
-  
+
+---
+
 **Evaluating Model Accuracy:**
 
 * The accuracy, classification report, and confusion matrix are printed and displayed.
